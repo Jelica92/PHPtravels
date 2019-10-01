@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110072" started-at="2019-10-01T09:43:04Z" finished-at="2019-10-01T09:44:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110072" started-at="2019-10-01T09:43:04Z" finished-at="2019-10-01T09:44:54Z">
+      <class name="Register.RegisterTestCases">
+        <test-method status="PASS" signature="LoadPage()[pri:0, instance:Register.RegisterTestCases@acaea5]" name="LoadPage" is-config="true" duration-ms="18532" started-at="2019-10-01T11:43:04Z" finished-at="2019-10-01T11:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadPage -->
+        <test-method status="PASS" signature="VerifyElementsOnRegisterPage()[pri:0, instance:Register.RegisterTestCases@acaea5]" name="VerifyElementsOnRegisterPage" duration-ms="3684" started-at="2019-10-01T11:43:22Z" finished-at="2019-10-01T11:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyElementsOnRegisterPage -->
+        <test-method status="PASS" signature="SignUpWithoutFirstName()[pri:1, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithoutFirstName" duration-ms="4997" started-at="2019-10-01T11:43:26Z" finished-at="2019-10-01T11:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithoutFirstName -->
+        <test-method status="PASS" signature="SignUpWithoutLastName()[pri:2, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithoutLastName" duration-ms="4840" started-at="2019-10-01T11:43:31Z" finished-at="2019-10-01T11:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithoutLastName -->
+        <test-method status="PASS" signature="SignUpWithoutEmail()[pri:3, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithoutEmail" duration-ms="4776" started-at="2019-10-01T11:43:36Z" finished-at="2019-10-01T11:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithoutEmail -->
+        <test-method status="PASS" signature="SignUpWithWrongEmail()[pri:4, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithWrongEmail" duration-ms="5042" started-at="2019-10-01T11:43:40Z" finished-at="2019-10-01T11:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithWrongEmail -->
+        <test-method status="PASS" signature="SignUpWithWrongRepeatedPassword()[pri:4, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithWrongRepeatedPassword" duration-ms="4895" started-at="2019-10-01T11:43:45Z" finished-at="2019-10-01T11:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithWrongRepeatedPassword -->
+        <test-method status="PASS" signature="SignUpWithoutAnyInformation()[pri:4, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithoutAnyInformation" duration-ms="7185" started-at="2019-10-01T11:43:50Z" finished-at="2019-10-01T11:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithoutAnyInformation -->
+        <test-method status="PASS" signature="SignUpWithoutPassandConfirmPass()[pri:4, instance:Register.RegisterTestCases@acaea5]" name="SignUpWithoutPassandConfirmPass" duration-ms="4804" started-at="2019-10-01T11:43:58Z" finished-at="2019-10-01T11:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithoutPassandConfirmPass -->
+        <test-method status="PASS" signature="SingUpSuccessfully()[pri:5, instance:Register.RegisterTestCases@acaea5]" name="SingUpSuccessfully" duration-ms="20683" started-at="2019-10-01T11:44:02Z" finished-at="2019-10-01T11:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingUpSuccessfully -->
+        <test-method status="PASS" signature="SingUpSuccessfullyWithoutPhone()[pri:5, instance:Register.RegisterTestCases@acaea5]" name="SingUpSuccessfullyWithoutPhone" duration-ms="28464" started-at="2019-10-01T11:44:23Z" finished-at="2019-10-01T11:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingUpSuccessfullyWithoutPhone -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Register.RegisterTestCases@acaea5]" name="quit" is-config="true" duration-ms="2125" started-at="2019-10-01T11:44:51Z" finished-at="2019-10-01T11:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Register.RegisterTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

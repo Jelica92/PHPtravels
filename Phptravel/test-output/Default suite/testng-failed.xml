@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Register.RegisterTestCases">
+        <methods>
+          <include name="SingUpSuccessfullyWithoutPhone"/>
+          <include name="quit"/>
+          <include name="LoadPage"/>
+          <include name="SignUpWithWrongEmail"/>
+          <include name="SignUpWithoutAnyInformation"/>
+          <include name="SignUpWithoutFirstName"/>
+          <include name="SignUpWithoutPassandConfirmPass"/>
+          <include name="SingUpSuccessfully"/>
+          <include name="VerifyElementsOnRegisterPage"/>
+          <include name="SignUpWithWrongRepeatedPassword"/>
+          <include name="SignUpWithoutEmail"/>
+          <include name="SignUpWithoutLastName"/>
+        </methods>
+      </class> <!-- Register.RegisterTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
